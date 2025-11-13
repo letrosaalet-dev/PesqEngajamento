@@ -182,7 +182,7 @@ if (escolhidos.length > 3) {
     respostas: respostas
   };
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbyybCO86mTX5yYaWMbhSzElFHJhqVLNqb_6mmFR0FpOWxJTBXblA2Fv7yDm3pqfEDFe/exec";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbz2znygqDxh4xImLeHjmAYlOUVSWI8SZnV51vm3aG-yCR4f6-HSihminifjCmsxho6D/exec";
 
   try {
     const res = await fetch(scriptURL, {
@@ -225,4 +225,5 @@ backHomeButton.addEventListener("click", () => {
   document.getElementById("perguntasContainer").innerHTML = "";
   gerarPerguntas();
 });
+
 }); // fecha o DOMContentLoaded
