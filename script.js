@@ -88,6 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
       nome: document.getElementById("clientName").value.trim(),
       empresa: document.getElementById("companyName").value.trim(),
       cargo: document.getElementById("clientRole").value.trim()
+      papel: document.getElementById("clientRoleInProject").value.trim()
+      area: document.getElementById("clientArea").value.trim()
     };
 
     respostas = [];
@@ -227,3 +229,4 @@ backHomeButton.addEventListener("click", () => {
 });
 
 }); // fecha o DOMContentLoaded
+
