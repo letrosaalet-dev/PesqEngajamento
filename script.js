@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const clientInfo = {
       nome: document.getElementById("clientName").value.trim(),
       empresa: document.getElementById("companyName").value.trim(),
-      cargo: document.getElementById("clientRole").value.trim()
-      papel: document.getElementById("clientRoleInProject").value.trim()
+      cargo: document.getElementById("clientRole").value.trim(),
+      papel: document.getElementById("clientRoleInProject").value.trim(),
       area: document.getElementById("clientArea").value.trim()
     };
 
@@ -229,4 +229,5 @@ backHomeButton.addEventListener("click", () => {
 });
 
 }); // fecha o DOMContentLoaded
+
 
