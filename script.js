@@ -184,7 +184,7 @@ if (escolhidos.length > 3) {
     respostas: respostas
   };
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbz2znygqDxh4xImLeHjmAYlOUVSWI8SZnV51vm3aG-yCR4f6-HSihminifjCmsxho6D/exec";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbxEAb-Ou30YCETQnnl_OpmA_lJA-39PDrYP3w0frcUzTZzOSf7V9pRsTrYkr6_5pXIm/exec";
 
   try {
     const res = await fetch(scriptURL, {
@@ -229,5 +229,6 @@ backHomeButton.addEventListener("click", () => {
 });
 
 }); // fecha o DOMContentLoaded
+
 
 
